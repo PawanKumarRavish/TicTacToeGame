@@ -16,6 +16,10 @@
 		5BF699A827977DF400099008 /* Lab1_PawanKumar_c0835049_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF699A727977DF400099008 /* Lab1_PawanKumar_c0835049_iosTests.swift */; };
 		5BF699B227977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF699B127977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITests.swift */; };
 		5BF699B427977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF699B327977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITestsLaunchTests.swift */; };
+		5BF699C327977E4900099008 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF699C027977E4900099008 /* 1.png */; };
+		5BF699C427977E4900099008 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF699C127977E4900099008 /* 2.png */; };
+		5BF699C527977E4900099008 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF699C227977E4900099008 /* Board.png */; };
+		5BF699C627978E1400099008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF6999427977DF300099008 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		5BF699AD27977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1_PawanKumar_c0835049_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF699B127977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_PawanKumar_c0835049_iosUITests.swift; sourceTree = "<group>"; };
 		5BF699B327977DF400099008 /* Lab1_PawanKumar_c0835049_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1_PawanKumar_c0835049_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF699C027977E4900099008 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5BF699C127977E4900099008 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5BF699C227977E4900099008 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +111,9 @@
 				5BF6999427977DF300099008 /* ViewController.swift */,
 				5BF6999627977DF300099008 /* Main.storyboard */,
 				5BF6999927977DF400099008 /* Assets.xcassets */,
+				5BF699C027977E4900099008 /* 1.png */,
+				5BF699C127977E4900099008 /* 2.png */,
+				5BF699C227977E4900099008 /* Board.png */,
 				5BF6999B27977DF400099008 /* LaunchScreen.storyboard */,
 				5BF6999E27977DF400099008 /* Info.plist */,
 			);
@@ -231,7 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF699C527977E4900099008 /* Board.png in Resources */,
 				5BF6999D27977DF400099008 /* LaunchScreen.storyboard in Resources */,
+				5BF699C327977E4900099008 /* 1.png in Resources */,
+				5BF699C427977E4900099008 /* 2.png in Resources */,
 				5BF6999A27977DF400099008 /* Assets.xcassets in Resources */,
 				5BF6999827977DF300099008 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF699C627978E1400099008 /* ViewController.swift in Sources */,
 				5BF699A827977DF400099008 /* Lab1_PawanKumar_c0835049_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
